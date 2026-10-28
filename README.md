@@ -1,6 +1,6 @@
 # Team 4154R Robotics Code and Engineering Notebook (2025-26)
 
-Code and documentation for **Robot 1** (U.S.S. Robotics, 4154R) from the 2025-26 VEX V5RC season, *Push Back*. Team: NSU University School, Hollywood, Florida. Code by Sergey Dmitriev, with autonomous routines also written by Ethan Ginter.
+Code and documentation for **Robot 1** (U.S.S. Robotics, 4154R) from the 2025-26 VEX V5RC season, *Push Back*. Team: NSU University School, Hollywood, Florida. Code by Sergey Dmitriev, with contributions from Ethan Ginter.
 
 ## Engineering Notebook
 
@@ -66,11 +66,11 @@ The PROS kernel, EZ-Template, LVGL and okapi libraries are not included. They ar
 | Descore wings | ADI C |
 | Hood piston | ADI D (switches scoring between the long goal and the middle goal) |
 
-The notebook documents the mechanical side of each of these, including the 3-wheel-per-side drive with two omni and one traction wheel, the flex wheel intake, the motorized hood that won the Innovate nomination at Worlds, and the pneumatic descore wings.
+The notebook documents the mechanical side of each of these, including the three-wheel-per-side drive with omni and traction wheels, the flex wheel intake, the motorized hood (submitted for the Innovate Award at Worlds, page 3), and the pneumatic descore wings.
 
 ## Driver Control
 
-Tank drive with a three-motor intake stack and four pneumatic toggles.
+Tank drive with a three-motor intake stack and three pneumatic toggles.
 
 | Input | Action |
 | --- | --- |
@@ -90,9 +90,9 @@ The tuner and the autonomous trigger turn themselves off when a field controller
 
 ### Scoring macro
 
-`SkillsMacro()` in `globals.cpp` is a timed sequence on the A button. It alternates short outtake bursts with longer intake stages on all three motors, and the intake power steps down gradually so blocks seat into the goal instead of falling out at the end. The brief reversals also clear jams. The notebook explains the reasoning on page 309.
+`SkillsMacro()` in `globals.cpp` is a timed sequence on the A button. It alternates short outtake bursts with longer intake stages on all three motors, and the intake power steps down gradually so blocks seat into the goal instead of falling out at the end. The brief reversals also help prevent jams. The notebook explains the reasoning on page 309.
 
-There is also a disabled `antiJamTask()` prototype (commented out in `globals.cpp`) that watches motor power against velocity and reverses the stack for 250 ms when it detects a stall. Jams cost us matches at Sabre Tech, so this is the direction for future work.
+There is also a disabled `antiJamTask()` prototype (commented out in `globals.cpp`) that watches motor power against velocity and reverses the stack for 250 ms when it detects a stall. An intake jam hurt a solo AWP run at Sabre Tech (page 233), so this is the direction for future work.
 
 ## Autonomous
 
@@ -154,7 +154,7 @@ Skills went through several rewrites. We started with a simple route worth 76 po
 | Bots by the Beach | Tournament Champion, Skills Champion, Excellence Award (first triple crown of the season). Skills 168 (96 driver, 72 programming) |
 | States | Won both finals matches (66-32 and 63-32) |
 
-Programming skills improved from 46 early in the season to 72, and the lessons from each event (the match loader snag at Coral Park, the failed programming run at Rumble, the jams at Sabre Tech) are written up in the notebook with the fix that followed.
+Programming skills ranged from 51 to 72 across the season, with the 72s at Smoky Mountain Forge and Bots by the Beach. The lessons from each event (the match loader snag at Coral Park, the weak programming run at Rumble, the jam at Sabre Tech) are written up in the notebook with the fix that followed.
 
 ## Building
 
