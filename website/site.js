@@ -56,7 +56,7 @@ if (typeof HTMLDialogElement !== 'undefined') {
   dialog.append(close, large, caption); document.body.append(dialog);
   close.addEventListener('click', () => dialog.close());
   document.querySelectorAll('.gallery figure').forEach(figure => {
-    const img = figure.querySelector('img'); if (!img) return;
+    const img = figure.querySelector('img'); if (!img || img.closest('a')) return;
     const button = document.createElement('button'); button.type = 'button'; button.className = 'gallery-enlarge';
     button.setAttribute('aria-label', 'Enlarge: ' + img.alt);
     img.before(button); button.append(img);
