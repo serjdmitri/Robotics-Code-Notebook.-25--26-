@@ -1,0 +1,19 @@
+# PROS build output
+bin/
+*.o
+*.d
+*.elf
+*.bin
+*.a
+.cache/
+
+# Editor and OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Large media and notebook exports (linked from README instead)
+*.mp4
+*.mov
+*.pdf
+*.zip
