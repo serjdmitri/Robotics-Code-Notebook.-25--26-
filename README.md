@@ -2,15 +2,19 @@
 
 Code and documentation for **Robot 1** (U.S.S. Robotics, 4154R) from the 2025-26 VEX V5RC season, *Push Back*. Team: NSU University School, Hollywood, Florida. Code by Sergey Dmitriev, with contributions from Ethan Ginter.
 
-## Personal Website
+## Explore the notebook and portfolio
 
-Sergey Dmitriev's personal site is in this repo: [website/index.html](website/index.html) — Apple-style design, with tabs Welcome, About, Portfolio and Awards, Contact, and Message Me.
+### [📘 Open the full engineering notebook on Google Drive →](https://docs.google.com/presentation/d/1GiA2kO4p-t1LA5_eSIRH9w8JFIGxV-6WOmxXxdnngt0/edit?usp=sharing)
 
-If GitHub Pages is enabled for this repo, the live site will be at https://serjdmitri.github.io/Robotics-Code-Notebook.-25--26-/website/
+**327 pages** of Team 4154R's design process, testing, code, and competition season.
+
+### [🌐 Visit Sergey’s personal website →](https://serjdmitri.github.io/Robotics-Code-Notebook.-25--26-/website/)
+
+Explore my robotics, AI, projects, awards, and swimming. The website source is in [website/](website/).
+
+---
 
 ## Engineering Notebook
-
-[Open the full 327-page engineering notebook (Google Slides)](https://docs.google.com/presentation/d/1GiA2kO4p-t1LA5_eSIRH9w8JFIGxV-6WOmxXxdnngt0/edit?usp=sharing)
 
 The notebook follows the full design process: game analysis, brainstorming, three prototypes, testing charts, port and button maps, code walkthroughs, and a match-by-match analysis of every tournament this season. It is hosted on Google Drive because of its size.
 
