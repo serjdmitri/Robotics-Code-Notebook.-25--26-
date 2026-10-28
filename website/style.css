@@ -34,3 +34,9 @@
 .swim-feature{margin:36px 0 0;max-width:760px}.swim-feature img{display:block;width:100%;height:auto;border-radius:var(--radius)}.swim-feature figcaption{font-size:14px;color:#6e6e73;margin-top:10px}
 .swim-gallery{padding:36px 0 0}.swim-gallery .gallery-heading p{font-size:15px;margin:0 0 20px}.swim-gallery .gallery img{object-fit:contain}
 .about-portraits{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:720px;margin:64px auto 0}.about-portraits figure{margin:0;overflow:hidden;border-radius:var(--radius);background:#f5f5f7}.about-portraits img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:contain;object-position:center}@media(max-width:500px){.about-portraits{gap:12px;margin-top:44px}}
+/* Featured projects: image first, then the story at every screen size. */
+.spotlight{grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto}
+.spotlight:nth-of-type(even) .spotlight-image{order:0}
+.spotlight-image{width:100%;min-height:0;align-items:center}
+.spotlight-image img{width:100%;height:auto;max-height:none;object-fit:contain}
+.spotlight-copy{padding:clamp(28px,5vw,56px)}
