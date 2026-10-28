@@ -2,6 +2,12 @@
 
 Code and documentation for **Robot 1** (U.S.S. Robotics, 4154R) from the 2025-26 VEX V5RC season, *Push Back*. Team: NSU University School, Hollywood, Florida. Code by Sergey Dmitriev, with contributions from Ethan Ginter.
 
+## Personal Website
+
+Sergey Dmitriev's personal site is in this repo: [website/index.html](website/index.html) — Apple-style design, with tabs Welcome, About, Portfolio and Awards, Contact, and Message Me.
+
+If GitHub Pages is enabled for this repo, the live site will be at https://serjdmitri.github.io/Robotics-Code-Notebook.-25--26-/website/
+
 ## Engineering Notebook
 
 [Open the full 327-page engineering notebook (Google Slides)](https://docs.google.com/presentation/d/1GiA2kO4p-t1LA5_eSIRH9w8JFIGxV-6WOmxXxdnngt0/edit?usp=sharing)
