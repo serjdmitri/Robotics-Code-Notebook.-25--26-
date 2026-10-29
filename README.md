@@ -1,4 +1,6 @@
-# Team 4154R Robotics Code and Engineering Notebook (2025-26)
+# Sergey Dmitriev | Robotics & Personal Website
+
+This repository brings together my personal portfolio and the code and engineering notebook for **Team 4154R**.
 
 Code and documentation for **Robot 1** (U.S.S. Robotics, 4154R) from the 2025-26 VEX V5RC season, *Push Back*. Team: NSU University School, Hollywood, Florida. Code by Sergey Dmitriev, with contributions from Ethan Ginter.
 
@@ -8,11 +10,21 @@ Code and documentation for **Robot 1** (U.S.S. Robotics, 4154R) from the 2025-26
 
 **327 pages** of Team 4154R's design process, testing, code, and competition season.
 
-### [🌐 Visit Sergey’s personal website →](https://serjdmitri.github.io/Robotics-Code-Notebook.-25--26-/website/)
+### [🌐 Visit Sergey’s personal website →](https://serjdmitri.github.io/Sergey-Dmitriev-Website-and-Robotics/website/)
 
 Explore my robotics, AI, projects, awards, and swimming. The website source is in [website/](website/).
 
 ---
+
+## Team 4154R in action
+
+![Team 4154R with their robot at the VEX World Championship](website/images/robotics-team.jpg)
+
+*Team 4154R and our robot at the VEX World Championship.*
+
+![Team members preparing their robot at the competition field](website/images/robotics-practice.jpg)
+
+*Preparing and testing the robot on the field.*
 
 ## Engineering Notebook
 
